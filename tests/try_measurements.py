@@ -1,0 +1,8 @@
+"""Test the easystat package."""
+from measurements import result_with_uncertainty
+
+measurements = [1, 2, 2, 2, 3]
+result, uncertainty = result_with_uncertainty(measurements)
+
+print(f"{measurements=}")
+print(f"Result of measurements is: {result:.2f} +- {uncertainty:.2f}.")
