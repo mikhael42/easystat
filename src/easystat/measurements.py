@@ -1,7 +1,8 @@
 """Statistical functions related to measurements."""
 
 import numpy as np
-from shortcuts import stdev_of_mean
+
+from easystat.shortcuts import stdev_of_mean
 
 
 def result_with_uncertainty(values):
